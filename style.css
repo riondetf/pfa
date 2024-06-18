@@ -11,6 +11,7 @@ body{
 
 option{
     color: white;
+    background-color: #6e3b5a;
 }
 
 .b{
@@ -106,10 +107,25 @@ button.commander{
     border-radius: 5px;
 }
 
-img{
-    width: 100%;
-    height: 30%;
-    position: absolute;
-    top: 35%;
-    left: 0;
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
+
+
+.b {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Utiliser 100vh pour la hauteur de la fenêtre */
+    width: 100vw; /* Utiliser 100vw pour la largeur de la fenêtre */
+    position: relative;
+    overflow: hidden; /* Empêche le défilement */
+    transform: rotate(90deg);
+}
+
